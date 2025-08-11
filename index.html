@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML5 Content & Forms</title>
+</head>
+<body>
+<header>
+    <h1>Muse Services – Web Development & Cybersecurity</h1>
+    <p>By Maryann Nwagor | HTML5 Project with Lists, Tables, Media & Forms</p>
+</header>
+
+<main>
+    <!-- Section: Lists -->
+    <section>
+        <h2>What We Do at Muse Services</h2>
+        <ul>
+            <li>Design and develop responsive corporate websites</li>
+            <li>Build personal and eCommerce websites</li>
+            <li>Implement secure web practices using cybersecurity principles</li>
+            <li>Offer tech consulting for businesses and individuals</li>
+            <li>Train clients on website management and online safety</li>
+        </ul>
+    </section>
+
+    <!-- Section: Table -->
+    <section>
+        <h2>Project Portfolio Highlights</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Year</th>
+                    <th>Project Name</th>
+                    <th>Type</th>
+                    <th>Technology Used</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>2024</td>
+                    <td>Corporate Website for Tayan Group</td>
+                    <td>Business Website</td>
+                    <td>HTML5, CSS3, JavaScript</td>
+                </tr>
+                <tr>
+                    <td>2024</td>
+                    <td>Mubbytech Portfolio</td>
+                    <td>Company Profile</td>
+                    <td>HTML5, CSS3</td>
+                </tr>
+                <tr>
+                    <td>2025</td>
+                    <td>Payroll Automation – PayInspira</td>
+                    <td>Web Application</td>
+                    <td>HTML5, Python, Flask</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section: Media -->
+    <section>
+        <h2>Media Showcase</h2>
+        <figure>
+            <img src="https://via.placeholder.com/600x200" alt="Muse Services Website Preview">
+            <figcaption>Website interface designed by Muse Services.</figcaption>
+        </figure>
+        <figure>
+            <audio controls>
+                <source src="sample-audio.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+            <figcaption>Audio: Tips on website security for small businesses.</figcaption>
+        </figure>
+        <figure>
+            <video controls width="400">
+                <source src="sample-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+            <figcaption>Video: Overview of Muse Services' web development process.</figcaption>
+        </figure>
+    </section>
+
+    <!-- Section: Form -->
+    <section>
+        <h2>Client Project Request Form</h2>
+        <form action="#" method="post" autocomplete="on">
+            
+            <fieldset>
+                <legend>Personal Information</legend>
+                
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required minlength="3">
+
+                <label for="email">Email Address:</label>
+                <input type="email" id="email" name="email" placeholder="name@example.com" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="e.g. 08012345678" 
+                       pattern="[0-9]{11}" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Project Details</legend>
+                
+                <label for="project-type">Type of Project:</label>
+                <select id="project-type" name="project-type" required>
+                    <option value="">-- Select Project Type --</option>
+                    <option value="business-website">Business Website</option>
+                    <option value="ecommerce">eCommerce Website</option>
+                    <option value="portfolio">Portfolio Website</option>
+                    <option value="web-security">Website Security Audit</option>
+                </select>
+
+                <label for="budget">Estimated Budget (₦):</label>
+                <input type="number" id="budget" name="budget" placeholder="500000" min="10000" step="1000" required>
+
+                <label for="deadline">Project Deadline:</label>
+                <input type="date" id="deadline" name="deadline" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Additional Information</legend>
+                <label for="comments">Project Description:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Tell us more about your project..."></textarea>
+            </fieldset>
+
+            <button type="submit">Submit Request</button>
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 Muse Services | Designed by Maryann Nwagor</p>
+</footer>
+
+</body>
+</html>
